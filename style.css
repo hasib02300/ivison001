@@ -1,9 +1,8 @@
-/* --- CSS Variables & Reset --- */
 :root {
-    --primary-color: #0F172A; /* Deep Navy Blue */
-    --secondary-color: #B8860B; /* Dark Goldenrod/Gold */
+    --primary-color: #0F172A;
+    --secondary-color: #B8860B;
     --secondary-hover: #9a7209;
-    --accent-color: #3B82F6; /* Brighter Blue for links */
+    --accent-color: #3B82F6;
     --text-dark: #1e293b;
     --text-light: #64748b;
     --bg-light: #f8fafc;
@@ -56,7 +55,6 @@ img {
     display: block;
 }
 
-/* --- Utility Classes --- */
 .container {
     max-width: var(--container-width);
     margin: 0 auto;
@@ -93,7 +91,6 @@ img {
     margin: 0 auto 3rem;
 }
 
-/* --- Scroll Animation Classes --- */
 .reveal {
     opacity: 0;
     transform: translateY(30px);
@@ -105,7 +102,6 @@ img {
     transform: translateY(0);
 }
 
-/* --- Buttons --- */
 .btn {
     display: inline-block;
     padding: 14px 32px;
@@ -155,7 +151,6 @@ img {
     transform: translateY(-2px);
 }
 
-/* --- Header / Navigation --- */
 header {
     background-color: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
@@ -239,7 +234,6 @@ header {
     padding: 10px;
 }
 
-/* --- Hero Section --- */
 .hero {
     background-image: url('https://z-cdn-media.chatglm.cn/files/08bc94ee-6478-4d8a-b50c-94020c5ea676.png?auth_key=1870111686-68307567f67d410b8065ea701f45f69a-0-5714e388c25ac9b838561faddddd63b7');
     background-size: cover;
@@ -297,7 +291,6 @@ header {
     flex-wrap: wrap;
 }
 
-/* --- Slider Section --- */
 .slider-section {
     position: relative;
     width: 100%;
@@ -429,7 +422,6 @@ header {
     transform: scale(1.2);
 }
 
-/* --- About Section --- */
 .about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -494,7 +486,6 @@ header {
     font-size: 1.1rem;
 }
 
-/* --- Services Section --- */
 .services {
     background-color: var(--bg-light);
 }
@@ -594,9 +585,8 @@ header {
     color: var(--secondary-color);
 }
 
-/* --- Service Detail Views (New) --- */
 .service-detail-container {
-    display: none; /* Hidden by default */
+    display: none;
     padding: 40px 0;
     animation: fadeIn 0.5s ease-in-out;
 }
@@ -723,7 +713,6 @@ header {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* --- Clients Section --- */
 .clients {
     text-align: center;
 }
@@ -754,7 +743,6 @@ header {
     transform: translateY(-2px);
 }
 
-/* --- CTA Section --- */
 .cta-section {
     background-color: var(--primary-color);
     color: var(--white);
@@ -776,7 +764,6 @@ header {
     margin-right: auto;
 }
 
-/* --- Footer --- */
 footer {
     background-color: #0b1120;
     color: #94a3b8;
@@ -857,7 +844,6 @@ footer {
     transform: translateY(-3px);
 }
 
-/* --- Responsive Design --- */
 @media (max-width: 992px) {
     .hero-content h1 { font-size: 2.8rem; }
     .about-grid { grid-template-columns: 1fr; gap: 50px; }
@@ -880,6 +866,7 @@ footer {
         transform: translateX(100%);
         transition: transform 0.3s ease-in-out;
         box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+        z-index: 999; 
     }
 
     .nav-links.active {
