@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Big4 Consultancy | Professional Advisory Services in Saudi Arabia</title>
     <meta name="description" content="Big4 Consultancy provides accounting, tax, and corporate services in Saudi Arabia. Our team consists of qualified Chartered Accountants with Big-4 experience.">
-
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -13,12 +13,10 @@
     
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <!-- Header -->
     <header>
         <div class="container nav-container">
@@ -37,13 +35,11 @@
                     </li>
                 </ul>
             </nav>
-
             <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Toggle Navigation">
                 <i class="fa-solid fa-bars"></i>
             </button>
         </div>
     </header>
-
     <main>
         <!-- Hero Section -->
         <section class="hero">
@@ -57,7 +53,6 @@
                 </div>
             </div>
         </section>
-
         <!-- Slider Section -->
         <div class="slider-section reveal">
             <div class="slider-container" id="imageSlider">
@@ -87,16 +82,13 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Controls -->
                 <button class="slider-btn prev-btn" id="prevBtn"><i class="fa-solid fa-chevron-left"></i></button>
                 <button class="slider-btn next-btn" id="nextBtn"><i class="fa-solid fa-chevron-right"></i></button>
-
                 <!-- Dots -->
                 <div class="slider-dots" id="sliderDots"></div>
             </div>
         </div>
-
         <!-- About Section -->
         <section id="about" class="section-padding">
             <div class="container">
@@ -120,7 +112,6 @@
                 </div>
             </div>
         </section>
-
         <!-- Services Section -->
         <section id="services" class="section-padding services">
             <div class="container">
@@ -129,7 +120,6 @@
                     <h2 class="section-title">Our Services</h2>
                     <p class="section-subtitle">Comprehensive financial and compliance solutions tailored for your business needs in the Kingdom.</p>
                 </div>
-
                 <!-- Services Grid (Hidden when detail is open) -->
                 <div class="services-grid" id="services-grid-container">
                     <!-- Service 1: CFO -->
@@ -139,7 +129,6 @@
                         <p>Support businesses with financial planning, budgeting, cash flow management, reporting, and strategic financial decision-making.</p>
                         <button onclick="openServiceDetail('cfo')" class="read-more">Learn more <i class="fa-solid fa-arrow-right"></i></button>
                     </div>
-
                     <!-- Service 2: Corporate Structuring -->
                     <div class="service-card reveal">
                         <div class="service-icon"><i class="fa-solid fa-sitemap"></i></div>
@@ -147,7 +136,6 @@
                         <p>Designing and implementing effective corporate structures that support growth, operational efficiency, and regulatory compliance in Saudi Arabia.</p>
                         <button onclick="openServiceDetail('structuring')" class="read-more">Learn more <i class="fa-solid fa-arrow-right"></i></button>
                     </div>
-
                     <!-- Service 3: Corporate Tax Compliance -->
                     <div class="service-card reveal">
                         <div class="service-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
@@ -155,7 +143,6 @@
                         <p>Managing corporate tax registrations, filings, and compliance requirements, ensuring timely and accurate submissions in line with Saudi tax laws.</p>
                         <button onclick="openServiceDetail('tax')" class="read-more">Learn more <i class="fa-solid fa-arrow-right"></i></button>
                     </div>
-
                     <!-- Service 4: Zakat Services -->
                     <div class="service-card reveal">
                         <div class="service-icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
@@ -163,7 +150,6 @@
                         <p>End-to-end Zakat compliance services, including calculation, filing, review support, and liaison with ZATCA to ensure full compliance.</p>
                         <button onclick="openServiceDetail('zakat')" class="read-more">Learn more <i class="fa-solid fa-arrow-right"></i></button>
                     </div>
-
                     <!-- Service 5: VAT Services -->
                     <div class="service-card reveal">
                         <div class="service-icon"><i class="fa-solid fa-percent"></i></div>
@@ -171,7 +157,6 @@
                         <p>Registration, return filing, advisory, compliance reviews, and support during audits to help businesses meet Saudi VAT requirements.</p>
                         <button onclick="openServiceDetail('vat')" class="read-more">Learn more <i class="fa-solid fa-arrow-right"></i></button>
                     </div>
-
                     <!-- Service 6: Withholding Tax -->
                     <div class="service-card reveal">
                         <div class="service-icon"><i class="fa-solid fa-money-bill-transfer"></i></div>
@@ -179,7 +164,6 @@
                         <p>Assistance with withholding tax calculations, filings, and compliance to ensure correct treatment of cross-border payments.</p>
                         <button onclick="openServiceDetail('wht')" class="read-more">Learn more <i class="fa-solid fa-arrow-right"></i></button>
                     </div>
-
                     <!-- Service 7: GOSI Compliance -->
                     <div class="service-card reveal">
                         <div class="service-icon"><i class="fa-solid fa-users-gear"></i></div>
@@ -187,7 +171,6 @@
                         <p>Support companies with GOSI registration, monthly compliance, employee updates, and regulatory reporting in accordance with Saudi labor laws.</p>
                         <button onclick="openServiceDetail('gosi')" class="read-more">Learn more <i class="fa-solid fa-arrow-right"></i></button>
                     </div>
-
                     <!-- Service 8: Bookkeeping -->
                     <div class="service-card reveal">
                         <div class="service-icon"><i class="fa-solid fa-book-open"></i></div>
@@ -195,7 +178,6 @@
                         <p>Reliable bookkeeping and accounting services, including monthly accounts, financial reporting, and management reports tailored to your needs.</p>
                         <button onclick="openServiceDetail('bookkeeping')" class="read-more">Learn more <i class="fa-solid fa-arrow-right"></i></button>
                     </div>
-
                     <!-- Service 9: Tax Advisory -->
                     <div class="service-card reveal">
                         <div class="service-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
@@ -203,7 +185,6 @@
                         <p>Professional tax advisory services to help businesses understand and manage their tax obligations in Saudi Arabia with practical, compliant advice.</p>
                         <button onclick="openServiceDetail('advisory')" class="read-more">Learn more <i class="fa-solid fa-arrow-right"></i></button>
                     </div>
-
                      <!-- Service 10: Actuarial -->
                      <div class="service-card reveal">
                         <div class="service-icon"><i class="fa-solid fa-calculator"></i></div>
@@ -211,7 +192,6 @@
                         <p>Actuarial support for employee benefit calculations, end-of-service benefits, and other actuarial requirements in compliance with local standards.</p>
                         <button onclick="openServiceDetail('actuarial')" class="read-more">Learn more <i class="fa-solid fa-arrow-right"></i></button>
                     </div>
-
                      <!-- Service 11: Incorporation -->
                      <div class="service-card reveal">
                         <div class="service-icon"><i class="fa-solid fa-rocket"></i></div>
@@ -221,9 +201,7 @@
                     </div>
                 </div>
             </div>
-
             <!-- === DETAIL VIEWS (Hidden by default) === -->
-
             <!-- 1. CFO Detail -->
             <div id="detail-cfo" class="service-detail-container container">
                 <div class="back-btn" onclick="closeServiceDetail()"><i class="fa-solid fa-arrow-left"></i> Back to Services</div>
@@ -257,7 +235,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- 2. Corporate Structuring Detail -->
             <div id="detail-structuring" class="service-detail-container container">
                 <div class="back-btn" onclick="closeServiceDetail()"><i class="fa-solid fa-arrow-left"></i> Back to Services</div>
@@ -290,7 +267,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- 3. Corporate Tax Compliance Detail -->
             <div id="detail-tax" class="service-detail-container container">
                 <div class="back-btn" onclick="closeServiceDetail()"><i class="fa-solid fa-arrow-left"></i> Back to Services</div>
@@ -323,7 +299,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- 4. Zakat Services Detail -->
             <div id="detail-zakat" class="service-detail-container container">
                 <div class="back-btn" onclick="closeServiceDetail()"><i class="fa-solid fa-arrow-left"></i> Back to Services</div>
@@ -356,7 +331,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- 5. VAT Services Detail -->
             <div id="detail-vat" class="service-detail-container container">
                 <div class="back-btn" onclick="closeServiceDetail()"><i class="fa-solid fa-arrow-left"></i> Back to Services</div>
@@ -389,9 +363,8 @@
                     </div>
                 </div>
             </div>
-
-             <!-- 6. Withholding Tax Detail -->
-             <div id="detail-wht" class="service-detail-container container">
+            <!-- 6. Withholding Tax Detail -->
+            <div id="detail-wht" class="service-detail-container container">
                 <div class="back-btn" onclick="closeServiceDetail()"><i class="fa-solid fa-arrow-left"></i> Back to Services</div>
                 <div class="detail-header">
                     <h2>Withholding Tax Services in Saudi Arabia</h2>
@@ -422,7 +395,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- 7. GOSI Compliance Detail (NEW) -->
             <div id="detail-gosi" class="service-detail-container container">
                 <div class="back-btn" onclick="closeServiceDetail()"><i class="fa-solid fa-arrow-left"></i> Back to Services</div>
@@ -455,7 +427,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- 8. Bookkeeping Detail (NEW) -->
             <div id="detail-bookkeeping" class="service-detail-container container">
                 <div class="back-btn" onclick="closeServiceDetail()"><i class="fa-solid fa-arrow-left"></i> Back to Services</div>
@@ -488,7 +459,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- 9. Tax Advisory Detail (NEW) -->
             <div id="detail-advisory" class="service-detail-container container">
                 <div class="back-btn" onclick="closeServiceDetail()"><i class="fa-solid fa-arrow-left"></i> Back to Services</div>
@@ -521,7 +491,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- 10. Actuarial Services Detail (NEW) -->
             <div id="detail-actuarial" class="service-detail-container container">
                 <div class="back-btn" onclick="closeServiceDetail()"><i class="fa-solid fa-arrow-left"></i> Back to Services</div>
@@ -554,7 +523,6 @@
                     </div>
                 </div>
             </div>
-
              <!-- 11. Incorporation Services Detail (NEW) -->
              <div id="detail-incorporation" class="service-detail-container container">
                 <div class="back-btn" onclick="closeServiceDetail()"><i class="fa-solid fa-arrow-left"></i> Back to Services</div>
@@ -587,9 +555,7 @@
                     </div>
                 </div>
             </div>
-
         </section>
-
         <!-- Clients Section -->
         <section id="clients" class="section-padding">
             <div class="container">
@@ -608,7 +574,6 @@
                 <p class="text-center reveal" style="margin-top: 40px; color: var(--text-light); font-style: italic; font-size: 1.1rem;">"Our clients value us for our practical approach, regulatory expertise, and responsive support."</p>
             </div>
         </section>
-
         <!-- CTA Section -->
         <section class="section-padding cta-section reveal">
             <div class="container">
@@ -618,7 +583,6 @@
             </div>
         </section>
     </main>
-
     <!-- Footer -->
     <footer id="contact">
         <div class="container">
@@ -660,13 +624,11 @@
                 <div class="social-icons">
                     <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
                     <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
-                    <p><i class="fa-brands fa-instagram"></i></a>
                     <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
         </div>
     </footer>
-
     <!-- Custom JS -->
     <script src="js/script.js"></script>
 </body>
